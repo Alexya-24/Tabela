@@ -1,0 +1,21 @@
+*{box-sizing: border-box;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+table{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    background-color: rgba(199, 199, 199, 0.225);
+    font-size: 20px;
+}
+tr:first-child{
+    background-color: rgba(61, 61, 61, 0.559);
+    text-decoration: solid
+}
+tr:nth-child(even){
+    background-color: #1ff11fbe;
+}
